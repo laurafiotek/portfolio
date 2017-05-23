@@ -1,0 +1,142 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+.welcome {
+	background-image: url("http://i67.tinypic.com/11t3cbp.jpg");
+	min-height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 0;
+	height: 650px;
+	width: 100%
+}
+.botonera_index {
+    background-color: transparent;
+    background: transparent;
+    border: none;
+    font-family: 'Raleway', Helvetica;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: #a9a4a4;
+    padding: 0;
+    margin: 0;
+ }
+.icon_mlf {
+ 	display: flex;
+ 	justify-content: center;
+ 	padding-top: 16rem;
+ 	font-family: 'Pacifico', Helvetica;
+ 	font-size: 10rem;
+ 	margin-top: 0;
+ 	color: #a9a4a4;
+ 	text-shadow: 2px 2px 4px #000000;
+ }
+a:link, a:visited, a:active {
+	color: #a9a4a4;
+	text-decoration: none;
+	background: transparent;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: transparent;
+	/*transition: 1s;*/
+}
+.botones_principio {
+	display: flex;
+	flex-direction: row;
+}
+.botones_principio>li>a {
+	line-height: 23rem;
+	padding: 4rem;
+	letter-spacing: 1px;
+}
+.nav>li>a {
+	padding: 63px 68px;
+}
+.about_list, .works_list, .contact_list{
+	padding: 2rem;
+}
+.segunda_pagina {
+	background-image: url("http://i64.tinypic.com/14mdnwj.jpg");
+	min-height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 0;
+	height: 630px;
+	width: 100%;
+}
+.botonera_fija {
+	height: 3rem;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Raleway', Helvetica;
+	letter-spacing: 1px;
+	font-size: 2.2rem;
+	padding-right: 2rem;
+	padding-left: 75rem;
+	margin-top: -6rem;
+}
+.about>li>a {
+	padding: 56px 14px;
+	line-height: 3;
+	margin-top: 1rem;
+}
+.navbar-default {
+    border: none;
+    border-radius: 0;
+    background: none;
+}
+img {
+	border-radius: 50%;
+	height: 18rem;
+}
+.photo {
+	height: 25rem;
+	width: 25rem;
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 20rem;
+}
+.presentacion_texto {
+	height: 25rem;
+	width: 45rem;
+	color: #a9a4a4;
+	font-size: 2.5rem;
+	font-family: 'Raleway', Verdana;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 44rem;
+	margin-top: -11rem;
+	border-color: white;
+	border-radius: 3px;
+}
+.presentacion {
+	margin-top: 6rem;
+}
+footer {
+	margin-left: 6rem;
+	margin-top: 9rem;
+	display: flex;
+	justify-content: center;
+}
+.fa {
+	font-size: 3.5rem;
+	padding-left: 0.6rem;
+}
+a:hover {
+	color: #eec540;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #eec540;
+}
